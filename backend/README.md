@@ -8,6 +8,7 @@ This documentation provides an overview of the Flask server API, specifically fo
 
 ### Endpoint: `/predict`
 - Method: POST
+- URL: https://rock-paperscissors.azurewebsites.net/predict
 - Input: JSON object containing three images encoded as base64 strings
 - Output: JSON response containing the prediction result or an error message
 
